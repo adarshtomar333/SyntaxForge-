@@ -1,0 +1,9 @@
+Toh tu_int count = 0
+jab_tak count < 10 {
+    agar count % 2 == 0 {
+        chap_ree("Even number: " + count)
+    } nahi_to {
+        chap_ree("Odd number: " + count)
+    }
+    count = count + 1
+}
